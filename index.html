@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/scriptj.js" defer></script>
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2 class="logo">LOGO</h2>
+
+            <svg id="open-icon" onclick="toggleBtn()" xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+
+            <ul class="nav-bar">
+
+                <svg id="close-icon" onclick="toggleBtn()" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                </svg>
+
+                <li><a href="#" class="nav-item">Inicio</a></li>
+                <li><a href="#" class="nav-item">Projetos</a></li>
+                <li><a href="#" class="nav-item">Contrato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="" method="get">
+            <h1>LOGIN</h1>
+
+            <input type="email" name="email" id="email" class="inputs" placeholder="Email..." autocomplete="off" autofocus>
+
+            <input type="password" name="password" id="password" class="inputs" placeholder="Senha...">
+
+            <button class="inputs btn" type="submit">Entrar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Alan Oliveira 24/08/2024...</p>
+    </footer>
+</body>
+</html>
